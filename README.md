@@ -23,7 +23,7 @@ This repository contains an op-for-op PyTorch reimplementation of [ESRGAN: Enhan
 ### Download weights
 
 - [Google Driver](https://drive.google.com/file/d/1lBT7msKjLkkAxYee80_mEby_e6pTeLMV/view?usp=sharing)
-- [Baidu Driver](https://pan.baidu.com/s/1UpmKF5ABCP2L2DKT9cUlqg) access:`llot`
+
 
 ### Download dataset
 
@@ -34,24 +34,7 @@ cd data/
 bash download_dataset.sh
 ```
 
-#### Download val dataset
-
-Set5 dataset:
-
-- [Google Driver](https://drive.google.com/file/d/1GJZztdiJ6oBmJe9Ntyyos_psMzM8KY4P/view?usp=sharing)
-- [Baidu Driver](https://pan.baidu.com/s/1_B97Ga6thSi5h43Wuqyw0Q) access:`llot`
-
-Set14 dataset:
-
-- [Google Driver](https://drive.google.com/file/d/14bxrGB3Nej8vBqxLoqerGX2dhChQKJoa/view?usp=sharing)
-- [Baidu Driver](https://pan.baidu.com/s/1wy_kf4Kkj2nSkgRUkaLzVA) access:`llot`
-
-Bsd100 dataset:
-
-- [Google Driver](https://drive.google.com/file/d/1RTlPATPBCfUufJspgTik5KUEzAuVcyFF/view?usp=sharing)
-- [Baidu Driver](https://pan.baidu.com/s/1Ig8t3_G4Nzhl8MvPAvdzFA) access:`llot`
-
-### Test (e.g Set5)
+### Test (e.g Set14)
 
 Modify the contents of the file as follows.
 
@@ -72,12 +55,12 @@ If you want to load weights that you've trained before, modify the contents of t
 2. `config.py` line 56 `start_p_epoch=0` change to `start_p_epoch=XXX`;
 3. `config.py` line 58 `resume=False` change to `resume=True`;
 4. `config.py` line 59 `resume_p_weight=""` change to `resume_p_weight=<YOUR-RESUME-WIGHTS-PATH>`;
-5. Run `python train.py`.
+5. Run `python train.py`
 
 ### Result
 
 Source of original paper results: [https://arxiv.org/pdf/1809.00219v2.pdf](https://arxiv.org/pdf/1809.00219v2.pdf)
-
+our paper results: []()
 In the following table, the value in `()` indicates the result of the project, and `-` indicates no test.
 
 | Dataset | Scale |       PSNR       |        SSIM        |
