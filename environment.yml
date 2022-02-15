@@ -1,0 +1,4 @@
+name: test
+channels:
+  - defaults
+prefix: C:\Users\YS\anaconda3\envs\torch_env\envs\test
