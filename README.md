@@ -65,7 +65,6 @@ In the following table, the value in `()` indicates the result of the project, a
 
 | Dataset | Scale |       PSNR       |        SSIM        |
 | :-----: | :---: | :--------------: | :----------------: |
-|  Set5   |   4   | 32.73(**-**) | 0.9011(**-**) |
 |  Set14  |   4   | 28.99(**-**) | 0.7917(**-**) |
 | BSDS100 |   4   | 27.85(**-**) | 0.7455(**-**) |
 
