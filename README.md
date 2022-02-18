@@ -62,7 +62,13 @@ If you want to load weights that you've trained before, modify the contents of t
 Source of original paper results: [https://arxiv.org/pdf/1809.00219v2.pdf](https://arxiv.org/pdf/1809.00219v2.pdf)
 our paper results: []()
 In the following table, the value in `()` indicates the result of the project, and `-` indicates no test.
+ESRGAN
+| Dataset | Scale |       PSNR       |        SSIM        |
+| :-----: | :---: | :--------------: | :----------------: |
+|  Set14  |   4   | 28.99(**-**) | 0.7917(**-**) |
+| BSDS100 |   4   | 27.85(**-**) | 0.7455(**-**) |
 
+PieESRGAN
 | Dataset | Scale |       PSNR       |        SSIM        |
 | :-----: | :---: | :--------------: | :----------------: |
 |  Set14  |   4   | 28.99(**-**) | 0.7917(**-**) |
