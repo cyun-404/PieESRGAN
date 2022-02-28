@@ -1,12 +1,13 @@
-# ESRGAN-PyTorch
+# Pie-ESRGAN-PyTorch
 
 ## Overview
 
-This repository contains an op-for-op PyTorch reimplementation of [ESRGAN: Enhanced Super-Resolution Generative Adversarial Networks](https://arxiv.org/abs/1809.00219v2).
+This repository contains an op-for-op PyTorch reimplementation of pieESRGAN(paper).
+I referred to the site( https://github.com/Lornatang/ESRGAN-PyTorch (ESRGAN)) for this code.
 
 ### Table of contents
 
-- [ESRGAN-PyTorch](#esrgan-pytorch)
+- [PieESRGAN-PyTorch](#pie-esrgan-pytorch)
     - [Overview](#overview)
         - [Table of contents](#table-of-contents)
         - [Download weights](#download-weights)
@@ -61,18 +62,8 @@ If you want to load weights that you've trained before, modify the contents of t
 
 Source of original paper results: [https://arxiv.org/pdf/1809.00219v2.pdf](https://arxiv.org/pdf/1809.00219v2.pdf)
 our paper results: []()
-In the following table, the value in `()` indicates the result of the project, and `-` indicates no test.
-ESRGAN
-| Dataset | Scale |       PSNR       |        SSIM        |
-| :-----: | :---: | :--------------: | :----------------: |
-|  Set14  |   4   | 28.99(**-**) | 0.7917(**-**) |
-| BSDS100 |   4   | 27.85(**-**) | 0.7455(**-**) |
-
-PieESRGAN
-| Dataset | Scale |       PSNR       |        SSIM        |
-| :-----: | :---: | :--------------: | :----------------: |
-|  Set14  |   4   | 28.99(**-**) | 0.7917(**-**) |
-| BSDS100 |   4   | 27.85(**-**) | 0.7455(**-**) |
+In the following table, the value in `()` indicates the result of the project.
+![image](https://user-images.githubusercontent.com/73474866/155973907-c7575c53-8506-4a03-b065-5d3d7faf5441.png)
 
 Low resolution / Recovered High Resolution / Ground Truth
 <span align="center"><img src="assets/result.png"/></span>
@@ -80,9 +71,7 @@ Low resolution / Recovered High Resolution / Ground Truth
 ### Contributing
 
 If you find a bug, create a GitHub issue, or even better, submit a pull request. Similarly, if you have questions,
-simply post them as GitHub issues.
-
-I look forward to seeing what the community does with these models!
+simply post them as GitHub issues.please.
 
 ### Credit
 
