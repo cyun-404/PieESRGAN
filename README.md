@@ -61,9 +61,9 @@ If you want to load weights that you've trained before, modify the contents of t
 
 ### Result
 
-Source of original paper results: [https://arxiv.org/pdf/1809.00219v2.pdf](https://arxiv.org/pdf/1809.00219v2.pdf)
-our paper results: []()
-In the following table, the value in `()` indicates the result of the project.
+
+our results: []()
+In the following table, the result of the project.
 ![image](https://user-images.githubusercontent.com/73474866/155973907-c7575c53-8506-4a03-b065-5d3d7faf5441.png)
 
 Low resolution / Recovered High Resolution / Ground Truth
