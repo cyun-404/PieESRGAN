@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains an op-for-op PyTorch reimplementation of pieESRGAN(paper).
+This repository contains an op-for-op PyTorch reimplementation of Improving ESRGAN with an additional image quality loss[[Paper]]().
 I referred to the site( https://github.com/Lornatang/ESRGAN-PyTorch (ESRGAN)) for this code.
 
 ### Table of contents
@@ -73,27 +73,13 @@ Low resolution / Recovered High Resolution / Ground Truth
 If you find a bug, create a GitHub issue, or even better, submit a pull request. Similarly, if you have questions,
 simply post them as GitHub issues.please.
 
-### Credit
 
-#### ESRGAN: Enhanced Super-Resolution Generative Adversarial Networks
+#### Improving ESRGAN with an additional image quality loss
 
-_Xintao Wang, Ke Yu, Shixiang Wu, Jinjin Gu, Yihao Liu, Chao Dong, Chen Change Loy, Yu Qiao, Xiaoou Tang_ <br>
+Yunsil choi, Hanhoon park <br>
 
-**Abstract** <br>
-The Super-Resolution Generative Adversarial Network (SRGAN) is a seminal work that is capable of generating realistic
-textures during single image super-resolution. However, the hallucinated details are often accompanied with unpleasant
-artifacts. To further enhance the visual quality, we thoroughly study three key components of SRGAN - network
-architecture, adversarial loss and perceptual loss, and improve each of them to derive an Enhanced SRGAN (ESRGAN). In
-particular, we introduce the Residual-in-Residual Dense Block (RRDB) without batch normalization as the basic network
-building unit. Moreover, we borrow the idea from relativistic GAN to let the discriminator predict relative realness
-instead of the absolute value. Finally, we improve the perceptual loss by using the features before activation, which
-could provide stronger supervision for brightness consistency and texture recovery. Benefiting from these improvements,
-the proposed ESRGAN achieves consistently better visual quality with more realistic and natural textures than SRGAN and
-won the first place in the PIRM2018-SR Challenge. The code is available
-at [this https URL](https://github.com/xinntao/ESRGAN).
-
-[[Paper]](https://arxiv.org/pdf/1609.04802) [[Code]](https://github.com/xinntao/ESRGAN)
-
+**Keywords** <br>
+image super-resolution, ESRGAN, perceptual loss, PieAPP
 ```bibtex
 @misc{wang2018esrgan,
     title={ESRGAN: Enhanced Super-Resolution Generative Adversarial Networks},
