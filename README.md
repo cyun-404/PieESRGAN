@@ -82,6 +82,11 @@ Yunsil choi, Hanhoon park <br>
 
 **Keywords** <br>
 image super-resolution, ESRGAN, perceptual loss, PieAPP
+
+**Discriminator Model**
+![image](https://user-images.githubusercontent.com/73474866/156099711-02198fe2-7be4-4389-a5a3-d26729153c52.png)
+
+
 ```bibtex
 @misc{wang2018esrgan,
     title={ESRGAN: Enhanced Super-Resolution Generative Adversarial Networks},
