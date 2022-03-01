@@ -117,7 +117,7 @@ def train_adversarial(train_dataloader, epoch) -> None:
 
         #print(pie)
        # pie=pieapp_loss.item()
-        g_loss =pie.mean()+ adversarial_loss  +0.001*pixel_loss #content_loss## + + pieapp_loss.item()#content_loss + pixel_loss  #0.4* pieapp_loss.item() +  pie.mean().item() + 
+        g_loss =pie.mean()+ adversarial_loss  +pixel_loss + content_loss
         g_loss.mean().backward()#.backward()
         g_optimizer.step()
         d_sr2 = sr_output.mean().item()
