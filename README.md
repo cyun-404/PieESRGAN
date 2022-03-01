@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository the code of "Improving ESRGAN with an additional image quality loss" [[Paper]]().
+This repository is the code of the paper("Improving ESRGAN with an additional image quality loss" [[Paper]]()).
 I referred to the site( https://github.com/Lornatang/ESRGAN-PyTorch (ESRGAN)) for this code.
 
 ### Table of contents
