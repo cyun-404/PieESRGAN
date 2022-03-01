@@ -23,7 +23,7 @@ I referred to the site( https://github.com/Lornatang/ESRGAN-PyTorch (ESRGAN)) fo
 
 ### Download weights
 
-- [Google Driver](https://drive.google.com/file/d/1lBT7msKjLkkAxYee80_mEby_e6pTeLMV/view?usp=sharing)
+- [Google Driver](https://drive.google.com/file/d/1SBxMk3ofuA217MaNhN71buf94aMDvH7a/view?usp=sharing)
 
 
 ### Download dataset
@@ -34,6 +34,7 @@ I referred to the site( https://github.com/Lornatang/ESRGAN-PyTorch (ESRGAN)) fo
 cd data/
 bash download_dataset.sh
 ```
+use DIV2K.
 
 ### Test (e.g Set14)
 
