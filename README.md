@@ -66,8 +66,9 @@ our results: []()
 In the following table, the result of the project.
 ![image](https://user-images.githubusercontent.com/73474866/155973907-c7575c53-8506-4a03-b065-5d3d7faf5441.png)
 
-Low resolution / Recovered High Resolution / Ground Truth
-<span align="center"><img src="assets/result.png"/></span>
+ ESRGAN / pieESRGAN / Ground Truth
+![image](https://user-images.githubusercontent.com/73474866/156099302-63eaf7c7-7f0b-4b0c-af44-e835d2311767.png)
+
 
 ### Contributing
 
