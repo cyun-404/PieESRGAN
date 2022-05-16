@@ -14,7 +14,7 @@ I referred to the site( https://github.com/Lornatang/ESRGAN-PyTorch (ESRGAN)) fo
         - [Download dataset](#download-dataset)
             - [Download train dataset](#download-train-dataset)
             - [Download val dataset](#download-val-dataset)
-        - [Test (e.g Set5)](#test-eg-set5)
+        - [Test (e.g Set14)](#test-eg-set14)
         - [Train (e.g DIV2K)](#train-eg-div2k)
         - [Result](#result)
         - [Contributing](#contributing)
