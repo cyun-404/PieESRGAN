@@ -1,8 +1,6 @@
 # Pie-ESRGAN-PyTorch
 
 ## Overview
-
-### Multimedia Tools and Applications
 This repository is the code of the paper("Improving ESRGAN with an additional image quality loss" [[Paper]](https://link.springer.com/article/10.1007/s11042-022-13452-4)).
 
 I referred to the site( https://github.com/Lornatang/ESRGAN-PyTorch (ESRGAN)) for this code.
@@ -77,13 +75,16 @@ In the following table, the result of the project.
 If you find a bug, create a GitHub issue, or even better, submit a pull request. Similarly, if you have questions,
 simply post them as GitHub issues.please.
 
+##Improving ESRGAN with an additional image quality loss
+Published: 29 July 2022
+Yoonsil Choi & Hanhoon Park 
+Multimedia Tools and Applications (2022)Cite this article
 
-#### Improving ESRGAN with an additional image quality loss
+### Keyword 
+Perceptual image super-resolution, Generateive adversarial network, ESRGAN, Additional perceptual loss, PieAPP-based image quality assessment, Multiscale disscriminator, ReLU activation
 
-Yunsil choi, Hanhoon park <br>
-
-**Keywords** <br>
-image super-resolution, ESRGAN, perceptual loss, PieAPP
+### Abstract
+ESRGAN is a generative adversarial network that produces visually pleasing super-resolution (SR) images with high perceptual quality from low-resolution images. However, it frequently fails to recover local details, resulting in blurry or unnatural visual artifacts. To address this problem, we propose using an additional perceptual loss (computed using the pretrained PieAPP network) for training the generator, adding skip connections to the discriminator to use a combination of features with different scales, and replacing the Leaky ReLU activation functions in the discriminator with the ReLU ones. Through ×4 SR experiments utilizing real and computer-generated image benchmark datasets, it is demonstrated that the proposed method can produce SR images with significantly higher perceptual quality than ESRGAN and other ESRGAN enhancements. Specifically, when compared to ESRGAN, the proposed method resulted in 5.95 higher DMOS values, 0.46 lower PI values, and 0.01 lower LPIPS values. The source code is accessible at https://github.com/cyun-404/PieESRGAN.
 
 **Discriminator Model**
 ![image](https://user-images.githubusercontent.com/73474866/156099711-02198fe2-7be4-4389-a5a3-d26729153c52.png)
