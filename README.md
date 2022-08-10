@@ -75,9 +75,11 @@ In the following table, the result of the project.
 If you find a bug, create a GitHub issue, or even better, submit a pull request. Similarly, if you have questions,
 simply post them as GitHub issues.please.
 
-##Improving ESRGAN with an additional image quality loss
+## Improving ESRGAN with an additional image quality loss
 Published: 29 July 2022
+
 Yoonsil Choi & Hanhoon Park 
+
 Multimedia Tools and Applications (2022)Cite this article
 
 ### Keyword 
