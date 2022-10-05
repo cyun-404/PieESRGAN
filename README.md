@@ -76,6 +76,7 @@ If you find a bug, create a GitHub issue, or even better, submit a pull request.
 simply post them as GitHub issues.please.
 
 ## Improving ESRGAN with an additional image quality loss
+[paper link] (https://link.springer.com/article/10.1007/s11042-022-13452-4)
 Published: 29 July 2022
 
 Yoonsil Choi & Hanhoon Park 
